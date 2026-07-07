@@ -2,6 +2,10 @@ import React, { useState, useMemo } from 'react';
 import { translations } from '../data/i18n';
 import { documentChecklists } from '../data/documentChecklists';
 
+/**
+ * DocumentChecker component that displays checklist items and workflows
+ * for identity records, local certificates, and registration services.
+ */
 export default function DocumentChecker({ lang }) {
   const t = translations[lang] || translations["en"];
   

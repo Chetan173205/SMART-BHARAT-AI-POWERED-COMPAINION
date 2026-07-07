@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * NotFoundPage component that displays a friendly 404 screen
+ * for catch-all invalid route path redirection.
+ */
 export default function NotFoundPage({ setActiveTab }) {
   return (
     <div className="glass-card" style={{

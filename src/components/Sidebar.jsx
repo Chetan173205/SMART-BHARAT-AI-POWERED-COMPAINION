@@ -1,6 +1,10 @@
 import React from 'react';
 import { translations } from '../data/i18n';
 
+/**
+ * Sidebar component that manages main navigation, theme toggles,
+ * and primary/secondary language selectors.
+ */
 export default function Sidebar({
   lang,
   setLang,
